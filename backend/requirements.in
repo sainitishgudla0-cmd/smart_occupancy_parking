@@ -1,0 +1,7 @@
+# Runtime dependencies deployed to Vercel. Keep this list lean.
+# Regenerate requirements.txt:  uv pip compile backend/requirements.in -o backend/requirements.txt --python-version 3.12 --python-platform linux --exclude-newer 2026-10-22
+fastapi
+scikit-learn
+numpy
+scipy
+joblib

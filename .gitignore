@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Source data and anything generated from it locally.
+# Deployed artifacts live in backend/artifacts/ and ARE committed.
+data/
+
+# Node and Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

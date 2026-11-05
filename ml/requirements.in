@@ -1,0 +1,6 @@
+# Local-only tooling (never deployed): data preparation, training, tests, local API server.
+-c ../backend/requirements.txt
+pandas
+pytest
+httpx
+uvicorn
